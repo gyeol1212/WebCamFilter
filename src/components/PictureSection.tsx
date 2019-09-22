@@ -9,6 +9,8 @@ const Container = styled.div`
   border: 1px solid black;
   border-radius: 2rem;
   min-height: 200px;
+  width: 80%;
+  margin: 0 auto;
   > div {
     font-size: 2rem;
     margin-top: 5rem;
