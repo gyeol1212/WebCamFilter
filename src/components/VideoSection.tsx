@@ -26,7 +26,10 @@ const Video = styled.video`
   border: 2px solid lightgray;
 `;
 
-const VideoSection: React.FC<IProps> = ({ slideFilter, setVideo }) => {
+const VideoSection: React.FC<IProps> = ({
+  slideFilter,
+  setVideo,
+}): JSX.Element => {
   const videoEl = useRef<HTMLVideoElement>(null);
 
   const [initialSetting, setInitialSetting] = useState(false);

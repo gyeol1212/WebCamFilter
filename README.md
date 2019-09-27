@@ -16,5 +16,4 @@
 - React
 - TypeScript
 - styled-components
-- WebRTC
 - canvas
